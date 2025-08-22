@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#box {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding: 40px;
+  gap: 10px;
+}
+
+#options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#options button,
+#btn-list button {
+  padding: 10px 20px;
+  width: 100%;
+  text-align: left;
+}
+
+#btn-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#hint {
+  display: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 40px;
+  width: 100% auto;
+}
